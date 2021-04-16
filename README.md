@@ -7,8 +7,7 @@ helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 helm repo update
 ```
 ## Install chart ##
-```helm install [RELEASE_NAME] ingress-nginx/ingress-nginx
-```
+```helm install [RELEASE_NAME] ingress-nginx/ingress-nginx```
 ## Check the created resources ##
 ``` kubectl get all ```
 
